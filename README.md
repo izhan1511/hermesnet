@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Old Config
+const { defineConfig } = require("@vue/cli-service"); module.exports = defineConfig({ transpileDependencies: true, });
